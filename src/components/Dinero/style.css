@@ -1,0 +1,31 @@
+.dinero {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e9ecef;
+  margin-top: 20px;
+  height: 40%;
+  padding: 15px;
+}
+
+.dinero__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Nunito";
+}
+
+.dinero__p {
+  font-weight: 700;
+  color: var(--grey-4);
+}
+
+.dinero__small {
+  font-weight: 400;
+  color: var(--grey-3);
+}
+
+.dinero__triste {
+  font-family: "Nunito";
+  font-weight: 700;
+  color: var(--color-primary-2);
+}

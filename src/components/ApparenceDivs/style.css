@@ -1,0 +1,154 @@
+.circle__first {
+  width: 50%;
+  height: 70%;
+  background-color: rgba(224, 100, 204, 0.05);
+  border-radius: 50%;
+  position: absolute;
+  align-items: center;
+  left: 45%;
+  bottom: 20%;
+}
+
+.circle__second {
+  width: 90%;
+  height: 90%;
+  background-color: rgba(224, 100, 204, 0.05);
+  border-radius: 50%;
+  top: 5%;
+  left: 5%;
+}
+
+.circle__third {
+  width: 80%;
+  height: 80%;
+  background-color: rgba(224, 100, 204, 0.05);
+  border-radius: 50%;
+  top: 10%;
+  left: 10%;
+}
+
+.circle__second,
+.circle__third {
+  position: absolute;
+}
+
+.box {
+  width: 45%;
+  height: 68%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 15%;
+  left: 29%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 3.62137px 36.2137px rgba(0, 0, 0, 0.25);
+}
+
+.box div {
+  background-color: #f3f3f3;
+  width: 80%;
+  height: 9%;
+  border-radius: 2px;
+}
+
+.box__creditCard__one {
+  width: 40%;
+  height: 15%;
+  background-color: #ffffff;
+  top: 45%;
+  left: 40%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 2px;
+  box-shadow: 0px 3.62137px 36.2137px rgba(0, 0, 0, 0.25);
+}
+
+.card__div {
+  width: 75%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.div__one,
+.div__two {
+  background-color: rgba(102, 192, 133, 0.11);
+  border-radius: 2px;
+}
+
+.div__one {
+  width: 90%;
+  height: 20%;
+}
+
+.div__two {
+  width: 20%;
+  height: 20%;
+}
+
+.credit__card {
+  width: 15%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-secondary);
+}
+
+.credit {
+  color: #ffffff;
+  width: 80%;
+  height: 50%;
+  border-radius: 2px;
+}
+
+.box__creditCard__two {
+  width: 40%;
+  height: 15%;
+  background-color: #ffffff;
+  top: 38%;
+  left: 20%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 2px;
+  box-shadow: 0px 3.62137px 36.2137px rgba(0, 0, 0, 0.25);
+}
+
+.card__div__two {
+  width: 75%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.card__div__two div {
+  background-color: #fceffa;
+  border-radius: 2px;
+}
+
+.credit__card__two {
+  background-color: var(--color-primary);
+  width: 15%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.credit__two {
+  color: #ffffff;
+  width: 80%;
+  height: 50%;
+  border-radius: 2px;
+}

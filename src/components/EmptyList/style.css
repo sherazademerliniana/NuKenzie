@@ -1,0 +1,50 @@
+.section__empty {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.empty__title {
+  color: var(--grey-3);
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.div__empty {
+  width: 100%;
+  height: 100px;
+  background-color: var(--grey-1);
+  border-radius: 4px;
+  display: flex;
+  gap: 20px;
+}
+
+.bar__vert {
+  width: 1%;
+  height: 100%;
+  background-color: var(--grey-2);
+}
+
+.bar {
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bar__hori {
+  background-color: var(--grey-2);
+  width: 60%;
+  height: 10%;
+}
+
+.bar__hori__two {
+  background-color: var(--grey-2);
+  width: 20%;
+  height: 10%;
+}

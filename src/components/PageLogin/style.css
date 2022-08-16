@@ -1,0 +1,58 @@
+.container {
+  background-color: var(--grey-4);
+  height: 100vh;
+}
+
+.main__login {
+  margin-top: 22%;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 30%;
+  font-family: "Nunito", sans-serif;
+  margin-left: 100px;
+}
+
+.main__title {
+  color: var(--color-primary);
+  font-family: "Nunito", sans-serif;
+  font-size: 28px;
+  display: flex;
+  gap: 5px;
+  font-weight: 800;
+}
+
+.main__title small,
+.main__article {
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+}
+
+.main__div__article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  word-break: break-word;
+}
+
+.main__article {
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.main__div__article small {
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.main__button {
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 10px;
+  width: 60%;
+  font-weight: 500;
+  font-size: 1rem;
+}
