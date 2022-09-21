@@ -12,12 +12,12 @@ function App() {
     if (newTransaction.type === "Despesa") {
       newTransaction.value = parseInt(newTransaction.value) * -1;
       setListTransactions([...listTransactions, newTransaction]);
+      setSaveListTransactions([...listTransactions, newTransaction]);
     } else {
       newTransaction.value = parseInt(newTransaction.value);
       setListTransactions([...listTransactions, newTransaction]);
+      setSaveListTransactions([...listTransactions, newTransaction]);
     }
-
-    setSaveListTransactions(listTransactions);
   };
 
   const removeItem = (itemRemove) => {
